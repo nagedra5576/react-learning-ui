@@ -3,12 +3,15 @@ import Hello from "./Components/Hello";
 import Incre from "./Components/Incre";
 import Arithmatic from "./Components/Arithmatic";
 import Form from "./Components/Form";
+import LifeCycleMountain from "./Components/LifeCycleMountain";
 
 const App =()=>{
     return(
         <div>
 
-            <Form/>
+            <LifeCycleMountain/>
+
+            {/* <Form/> */}
 
             {/* <Arithmatic/> */}
 

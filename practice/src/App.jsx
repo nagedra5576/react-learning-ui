@@ -4,12 +4,15 @@ import Incre from "./Components/Incre";
 import Arithmatic from "./Components/Arithmatic";
 import Form from "./Components/Form";
 import LifeCycleMountain from "./Components/LifeCycleMountain";
+import UpdatingLifeCycle from "./Components/UpdatingLifeCycle";
 
 const App =()=>{
     return(
         <div>
 
-            <LifeCycleMountain/>
+            <UpdatingLifeCycle/>
+
+            {/* <LifeCycleMountain/> */}
 
             {/* <Form/> */}
 

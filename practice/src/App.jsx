@@ -8,12 +8,21 @@ import UpdatingLifeCycle from "./Components/UpdatingLifeCycle";
 import FragmentDemo from "./Components/FragmentDemo";
 import PureComp from "./Components/PureComp";
 import ParentComp from "./Components/ParentComp";
+import RefDemo from "./References/RefDemo";
+import FocusInput from "./References/FocusInput";
+import ForwardRefParent from "./References/ForwardRefParent";
 
 const App =()=>{
     return(
         <div>
 
-            <ParentComp/>
+            <ForwardRefParent/>
+
+            {/* <FocusInput/> */}
+
+            {/* <RefDemo/> */}
+
+            {/* <ParentComp/> */}
 
             {/* <FragmentDemo/> */}
 
